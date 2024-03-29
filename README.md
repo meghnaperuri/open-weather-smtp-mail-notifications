@@ -1,0 +1,1 @@
+# open-weather-smtp-mail-notifications
