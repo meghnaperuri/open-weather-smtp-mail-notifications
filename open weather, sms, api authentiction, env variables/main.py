@@ -10,17 +10,10 @@ api_key = os.environ.get("OWM_API_KEY")
 print("API Key:", os.environ.get("OWM_API_KEY"))
 
 
-# https://api.openweathermap.org/data/2.5/weather?lat=38.854004&lon=-77.356918&appid=27f71744ae8759f44a23ca4666152852
-# recovery code for twilio: QGF1UXTJCYAAXMT1HEBXCT3X
-# auth token: 14bd25b6f9b9a602ee88ade1e5200b8a
-# Account SID: AC745b3efe5a29e2ba5d33516e237fe777
-# twillio phone number: +18777804236
-# "lat": 38.854004,
-# "lon": -77.356918,
 api_key=os.environ.get("OWM_API_KEY")
 print(api_key)
-account_sid="AC745b3efe5a29e2ba5d33516e237fe777"
-auth_token="14bd25b6f9b9a602ee88ade1e5200b8a"
+account_sid="Account sid"
+auth_token="auth token"
 parameters={
     "lat": 36.25,
     "lon": 44.48,
